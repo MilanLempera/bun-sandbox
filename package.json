@@ -1,0 +1,14 @@
+{
+  "name": "bun-sandbox",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "bun test --watch "
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
